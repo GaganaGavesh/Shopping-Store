@@ -19,6 +19,29 @@ You may also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### Short cut phrases
+
+imr - Import React
+imrc - Import React, Component
+imrse - Import React, useState, useEffect
+cc - Class Component
+cpc - Class Pure Component
+ffc - Function Component
+sfc - Stateless Function Component (Arrow function)
+cdm - componentDidMount
+uef - useEffect Hook
+cwm - componentWillMount
+gds - getDerivedStateFromProps
+scu - shouldComponentUpdate
+cwu - componentWillUpdate
+cdu - componentDidUpdate
+cwun - componentWillUnmount
+cdc - componentDidCatch
+gsbu - getSnapshotBeforeUpdate
+ss - setState
+ssf - Functional setState
+usf - Declare a new state variable using State Hook
+
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
