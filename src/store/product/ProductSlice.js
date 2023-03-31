@@ -11,7 +11,7 @@ export const productSlice = createSlice({
 });
 
 // Action creators are generated for each case reducer function
-//Actions are commented since there ane no any.
+// Actions are commented since there ane no any.
 // export const { } = productSlice.actions;
 
 export default productSlice.reducer;
