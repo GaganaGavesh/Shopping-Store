@@ -26,3 +26,5 @@ export const productSlice = createSlice({
 export const { increment, decrement, incrementByAmount } = productSlice.actions;
 
 export default productSlice.reducer;
+
+//createSlice returns an object which we can access the actions and reducer
