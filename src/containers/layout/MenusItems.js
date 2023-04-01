@@ -1,13 +1,11 @@
-import DropDown from './DropDown';
+import DropDown from "./DropDown";
 
 const MenusItems = ({ items }) => {
   return (
     <li className="menu-items">
       {items.submenu ? (
         <>
-          <button type="button" aria-haspopup="menu">
-            {items.title}{' '}
-          </button>
+          <button type="button">{items.title} </button>
           <DropDown submenus={items.submenu} />
         </>
       ) : (
@@ -18,4 +16,3 @@ const MenusItems = ({ items }) => {
 };
 
 export default MenusItems;
-
